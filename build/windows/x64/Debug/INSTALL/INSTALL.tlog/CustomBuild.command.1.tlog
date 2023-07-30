@@ -1,0 +1,10 @@
+^C:\USERS\MUHAM\DOCUMENTS\PEMROGRAMAN PROJECT\FLUTTER\BWA_BASIC\BWA_BASIC\BUILD\WINDOWS\CMAKEFILES\8841461A264D39B35247DD74B3AAA168\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

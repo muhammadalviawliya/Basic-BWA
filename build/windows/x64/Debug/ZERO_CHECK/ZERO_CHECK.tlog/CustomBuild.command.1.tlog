@@ -1,0 +1,10 @@
+^C:\USERS\MUHAM\DOCUMENTS\PEMROGRAMAN PROJECT\FLUTTER\BWA_BASIC\BWA_BASIC\BUILD\WINDOWS\CMAKEFILES\8841461A264D39B35247DD74B3AAA168\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/muham/Documents/Pemrograman Project/Flutter/BWA_BASIC/bwa_basic/windows" "-BC:/Users/muham/Documents/Pemrograman Project/Flutter/BWA_BASIC/bwa_basic/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/muham/Documents/Pemrograman Project/Flutter/BWA_BASIC/bwa_basic/build/windows/bwa_basic.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
